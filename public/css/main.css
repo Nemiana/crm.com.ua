@@ -1,0 +1,42 @@
+* {
+	font-family: Arial, Geneva, Helvetica, sans-serif;
+}
+/* Header */
+header {
+    border: 1px solid red;
+}
+.logo {
+    position: relative;
+    padding: 15px;
+}
+.logo span {
+    position: absolute;
+    top: 35%;
+    margin-left: 20%;
+    font-size: 3vw;
+    font-weight: bold;
+    color: #4682B4;
+}
+.login_reg {
+    position: absolute;
+    top: 10%;
+    right: 20px;
+}
+/* Footer */
+footer {
+    border: 1px solid red;
+    padding: 15px;
+}
+.copyright {
+    text-align: right;
+}
+/* Main part */
+article {
+    padding: 15px;
+}
+.feedback table {
+    margin: auto;
+}
+.feedback textarea {
+    resize: none;
+}
